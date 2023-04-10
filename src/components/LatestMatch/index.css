@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.LatestMatch {
+  color: #ffffff;
+  display: flex;
+  padding: 20px;
+  width: 90%;
+  background-color: black;
+  border-radius: 20px;
+}
+li {
+  list-style: none;
+}
+
+.first_container {
+  flex-grow: 2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fist_container_content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.competingTeam {
+}
+
+.date {
+}
+
+/* .venue {
+}
+
+.result {
+} */
+
+.image_container {
+  flex-grow: 1;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoCompeting {
+  width: 300px;
+  height: 300px;
+}
+
+.second_container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+p {
+}
+
+label {
+}
+hr {
+  width: 100%;
+  display: none;
+}
+@media (max-width: 676px) {
+  .logoCompeting {
+    width: 100px;
+    height: 100px;
+  }
+  .LatestMatch {
+    flex-direction: column;
+  }
+  .second_container {
+    /* flex-direction: row; */
+    align-items: flex-start;
+    /* background-color: red; */
+  }
+  hr {
+    display: block;
+  }
+}

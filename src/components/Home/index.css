@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.Home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 30px; */
+}
+
+.content_container_80width {
+  /* margin: 20px; */
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iplLogoAndHeading_container {
+  display: flex;
+}
+
+.iplLogo {
+  width: 50px;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.ul_container_teamCards {
+  padding: 0px;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

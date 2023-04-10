@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.TeamMatches {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-image: linear-gradient(#ffffff, #9198e5); */
+}
+
+.teamBanner {
+  width: 90%;
+}
+
+.latestMatchesPara {
+  width: 90%;
+  color: #ffffff;
+}
+
+.ul_matchCard_container {
+  width: 90%;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+}

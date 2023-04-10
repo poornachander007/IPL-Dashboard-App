@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.MatchCard {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  width: 200px;
+  background-color: black;
+  color: #ffffff;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.competingTeamLogo {
+  height: 100px;
+  width: 100px;
+}
+
+.competingTeam {
+  font-size: 24px;
+}
+
+.result {
+  font-size: 16px;
+}
+
+.matchStatus {
+  font-size: 22px;
+}
+
+@media (max-width: 676px) {
+  .MatchCard {
+    height: 350px;
+    width: 150px;
+  }
+  .competingTeam {
+    font-size: 20px;
+  }
+  .matchStatus {
+    font-size: 18px;
+  }
+  .result {
+    font-size: 14px;
+  }
+  .competingTeamLogo {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
